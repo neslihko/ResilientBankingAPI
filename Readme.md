@@ -78,10 +78,9 @@ Follow these steps to set up and run the project on your local machine:
 ``` |
 | `/api/accounts/{id}` | DELETE | Deletes a specific account by ID | N/A |
 
-## Contributing
+   ### Explanation:
 
-Contributions to the Resilient Banking API project are welcome. Please feel free to submit a Pull Request.
+- **"Additional Resources" Section:** Added a new section to include your Medium article link.
+- **Markdown Link:** The link to your Medium article is included in the format [Medium article](https://medium.com/@neslihanerdem/building-resilient-cloud-applications-with-net-resilience-patterns-e0e01f3f52ac).
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
