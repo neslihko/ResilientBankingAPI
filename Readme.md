@@ -69,5 +69,5 @@ Follow these steps to set up and run the project on your local machine:
    ### Explanation:
 
 - **"Additional Resources" Section:** Added a new section to include your Medium article link.
-- **Markdown Link:** The link to your Medium article is included in the format `[Medium article](https://medium.com/@neslihanerdem/building-resilient-cloud-applications-with-net-resilience-patterns-e0e01f3f52ac)`.
+- **Markdown Link:** The link to your Medium article is included in the format [Medium article](https://medium.com/@neslihanerdem/building-resilient-cloud-applications-with-net-resilience-patterns-e0e01f3f52ac).
 
