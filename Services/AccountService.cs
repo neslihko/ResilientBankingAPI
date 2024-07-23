@@ -1,6 +1,6 @@
-﻿
-using global::ResilientBankingAPI.Models;
-using ResilientBankingAPI.Data;
+﻿using ResilientBankingAPI.Data;
+using ResilientBankingAPI.Models;
+
 
 namespace ResilientBankingAPI.Services
 {
@@ -20,9 +20,9 @@ namespace ResilientBankingAPI.Services
 
         public async Task<Account> CreateAccountAsync(Account account)
         {
-            _context.Accounts.Add(account);
-            await _context.SaveChangesAsync();
+            _ = _context.Accounts.Add(account);
+            _ = await _context.SaveChangesAsync();
             return account;
         }
     }
-  
+}

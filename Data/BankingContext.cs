@@ -1,4 +1,6 @@
-﻿using ResilientBankingAPI.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using ResilientBankingAPI.Models;
+
 
 namespace ResilientBankingAPI.Data
 {

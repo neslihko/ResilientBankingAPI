@@ -2,12 +2,9 @@
 
 namespace ResilientBankingAPI.Services
 {
-    public class IAccountService
+    public interface IAccountService
     {
-        public interface IAccountService
-        {
-            Task<Account> GetAccountAsync(int id);
-            Task<Account> CreateAccountAsync(Account account);
-        }
+        Task<Account> GetAccountAsync(int id);
+        Task<Account> CreateAccountAsync(Account account);
     }
 }
